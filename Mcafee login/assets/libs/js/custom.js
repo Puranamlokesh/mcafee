@@ -66,19 +66,4 @@ function formvalidation() {
   var email = document.forms["RegForm"]["user_email"];
   var pwd = document.forms["RegForm"]["user_password"];
   var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-  //   if (email.value == "") {
-  //     document.getElementById("errors").innerHTML = "Please enter your email";
-  //     email.focus();
-  //     return false;
-  //   }
-
-  //   if (pwd.value == "") {
-  //     document.getElementById("errors").innerHTML = "Please enter your password";
-  //     pwd.focus();
-  //     return false;
-  //   }
-  //   if (email.value != "" && pwd.value != "") {
-  //     return true;
-  //   }
 }
