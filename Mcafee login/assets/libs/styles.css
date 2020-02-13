@@ -1,0 +1,66 @@
+.login-button {
+  background-color: #C01818 !important;
+  border-color: #C01818 !important;
+}
+.login-button:hover {
+  background-color: #C02352 !important;
+  border-color: #C02352 !important;
+}
+
+.input-group.inValid input {
+  background-color: #ffe6e6;
+}
+.input-group.inValid span {
+  background-color: #ffe6e6;
+}
+
+.valid-errors {
+  display: none;
+  background-color: #ffe6e6;
+  margin: 10px 0;
+  text-align: left;
+  line-height: 1px;
+}
+.valid-errors .card {
+  border: inherit;
+  display: list-item;
+  margin-left: 2.3em;
+  list-style-type: disc;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.login-heading {
+  color: #a79f9f;
+  padding-top: 1.5rem;
+  font-size: 23px;
+}
+
+.loginbox-customClr {
+  background-color: #eee;
+}
+
+.card-body {
+  color: #e21414;
+  background: inherit;
+  border: inherit;
+}
+
+.new-messageUS {
+  color: #333;
+}
+
+.signup {
+  color: #2d65bd;
+}
+
+.px-2 form {
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+}
+
+/*# sourceMappingURL=styles.css.map */

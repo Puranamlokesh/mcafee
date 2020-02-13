@@ -1,0 +1,73 @@
+$login-heading: #a79f9f;
+$cardText: #e21414;
+$signupText: #2d65bd;
+$loginbtn: #C01818;
+$loginHo: #C02352;
+$loginboxbg: #eee;
+$loginbrd: #C01818;
+$loginHobrd: #C02352;
+$newmessage: #333;
+$inpuBg: #ffe6e6;
+
+.login-button {
+	background-color: $loginbtn !important;
+	border-color: $loginbrd !important;
+	&:hover {
+		background-color: $loginHo !important;
+		border-color: $loginHobrd !important;
+	}
+}
+
+
+.input-group.inValid {
+	input {
+		background-color: $inpuBg;
+	}
+	span {
+		background-color: $inpuBg;
+	}
+}
+.valid-errors {
+	display: none;
+	background-color: $inpuBg;
+	margin: 10px 0;
+	text-align: left;
+	line-height: 1px;
+	.card {
+		border: inherit;
+		display: list-item;
+		margin-left: 2.3em;
+		list-style-type: disc;
+	}
+}
+
+.w-35{
+    width: 35%;
+}
+.login-heading {
+    color: $login-heading;
+    padding-top: 1.5rem;
+    font-size: 23px;
+}
+.loginbox-customClr {
+	background-color: $loginboxbg;
+}
+.card-body {
+	color: $cardText;
+	background: inherit;
+	border: inherit;
+}
+.new-messageUS {
+	color: $newmessage;
+}
+.signup {
+	color: $signupText;
+}
+.px-2 {
+	form {
+		background: #fff;
+		padding: 20px;
+		margin-top: 30px;
+		border: 1px solid #ccc;
+	}
+}
